@@ -1,0 +1,52 @@
+{
+  "name": "@keyzula/crypto",
+  "version": "0.1.0",
+  "private": false,
+  "description": "KeyZula's client-side encryption library (zero-knowledge)",
+  "license": "Apache-2.0",
+  "author": "Netlen İnternet Hizmetleri Ltd. Şti. <info@keyzula.com>",
+  "homepage": "https://keyzula.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeyZula/keyzula-crypto.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KeyZula/keyzula-crypto/issues"
+  },
+  "keywords": [
+    "keyzula",
+    "password-manager",
+    "zero-knowledge",
+    "end-to-end-encryption",
+    "libsodium",
+    "argon2id",
+    "xchacha20-poly1305",
+    "x25519"
+  ],
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src",
+    "LICENSE",
+    "NOTICE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc -p ."
+  },
+  "dependencies": {
+    "@noble/hashes": "^2.4.0",
+    "libsodium-wrappers-sumo": "^0.8.4"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "vitest": "^5.0.2",
+    "typescript": "^7.0.2"
+  }
+}

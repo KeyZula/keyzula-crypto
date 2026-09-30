@@ -1,0 +1,9 @@
+KeyZula Crypto
+Copyright 2026 Netlen İnternet Hizmetleri Ltd. Şti.
+
+This product includes software developed by Netlen İnternet Hizmetleri Ltd. Şti.
+(https://keyzula.com).
+
+src/wordlist.ts contains the EFF Large Wordlist for Passphrases,
+by the Electronic Frontier Foundation, licensed under CC BY 3.0 US
+(https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases).
